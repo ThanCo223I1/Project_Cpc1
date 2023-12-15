@@ -1,0 +1,151 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .header-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+  }
+  
+  .auth-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+  }
+  
+  .auth-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .row{
+    border: 1px solid gray;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .auth-form__header-title {
+    color: #333;
+    display: flex;
+    font-family: "Arial";
+  }
+  
+  .auth-form__header-title i {
+    margin-left: 5px;
+  }
+  
+  .auth-form__ {
+    margin-bottom: 20px;
+  }
+  
+  .auth-form__input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-form__ch-sa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .auth-form__checkbox {
+    margin-right: 10px;
+  }
+  
+  .auth-form__Forgotpassword {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  
+  .auth-form__ft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  
+  .auth-form__text,
+  .auth-form__register {
+    margin: 0; /* Xóa margin mặc định */
+  }
+  
+  .auth-form__register {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px; /* Khoảng cách giữa đoạn văn bản và liên kết */
+  }
+  
+  .auth-form__register:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    width: 100%;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header-img {
+      display: none; /* Ẩn ảnh khi màn hình nhỏ hơn 768px */
+    }
+  
+    .auth-form {
+      min-width: 400px; /* Giữ nguyên kích thước tối thiểu cho form đăng nhập */
+      margin-right:180px;
+      height: 500px;
+      padding: 50px;
+      margin-top: 20px;
+    }
+    .auth-form-container {
+      
+        padding-right: 100%;
+      }
+  }
+  
+  

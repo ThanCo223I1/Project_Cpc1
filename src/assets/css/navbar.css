@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .navbar {
+    background-color: white;
+    height: 50px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 98;
+  }
+  
+  .navbar-ti-menu-alt {
+    height: 100%;
+  }
+  
+  .navbar-title {
+    margin-left: 4%;
+    width: 120px;
+  }
+  
+  .ti-menu-alt {
+    width: 10px;
+    height: 10px;
+    padding: 0 15px;
+  }
+  
+  .navbar-right {
+    padding: 0 1.8rem;
+  }
+  
+  .logo img {
+    height: 100%;
+  }
+  
+  .hello-user {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    color: #606266;
+  }
+  
+  .hello-user p {
+    font-weight: 600;
+    font-size: 10pt;
+   
+  }
+  
+  .hello-user .user-name {
+    opacity: 0.8;
+    font-weight: 100;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    top: 50px;
+    margin-top: 2px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-dropdown p {
+    margin: 0;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  .user-dropdown a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .user-dropdown a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  .user-dropdown:hover {
+    background-color: #f0f0f0;
+  }
+  .user-dropdown button {
+    background-color: #fff;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .user-dropdown div {
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .user-dropdown div:hover {
+    background-color: #e6e6e6;
+    color: #333;
+  }
+  .user-dropdown button {
+    background-color: #fff;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .user-dropdown button:hover {
+    text-decoration: underline;
+    color: #0056b3;
+    text-align: center;
+  }
