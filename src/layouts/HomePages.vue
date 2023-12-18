@@ -23,7 +23,7 @@
   
   <style scoped>
   .navbar {
-    width: calc(100% - 210px);
+    width: calc(100% - 260px);
   }
   
   .home-page {
@@ -45,7 +45,7 @@
   
   .middle-content {
     position: relative;
-    margin-top: 50px;
+    margin-top: 60px;
     width: 100vw;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
