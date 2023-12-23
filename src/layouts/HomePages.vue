@@ -48,13 +48,21 @@
     margin-top: 60px;
     width: 100vw;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 2px;
     background-color: #eee;
     overflow: hidden;
-      overflow-y: scroll;
+    overflow-y: scroll;
   }
   
   .router-view{
       background-color: #fff;
   }
+  @media (max-width: 767px) {
+  .middle-sidebar {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+}
   </style>

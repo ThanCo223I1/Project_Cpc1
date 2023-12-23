@@ -98,9 +98,9 @@ export default {
       this.isDropdownOpen = !this.isDropdownOpen
     },
     handlePushToTable2(item) {
-      // Xử lý khi một mục trong dropdown được chọn
+     
       console.log(`Chọn: ${item}`)
-      // Thêm logic xử lý tại đây, ví dụ chuyển hướng hoặc thực hiện các thao tác khác
+    
     }
   }
 }
@@ -156,11 +156,11 @@ ul li {
 
 ul .sub-sidebar:hover {
   background-color: #263445;
-  color: #fff; /* Màu chữ trắng khi hover */
+  color: #fff; 
 }
 .sub-sidebar:hover {
   background-color: #263445;
-  color: #fff !important; /* Màu chữ trắng khi hover */
+  color: #fff !important; 
 }
 
 ul .sub-sidebar:focus {

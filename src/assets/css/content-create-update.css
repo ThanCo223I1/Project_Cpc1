@@ -1,0 +1,328 @@
+/* .v-field__field {
+    padding-left: 10px;
+  } */
+  .note{
+  
+    padding: 13px;
+  }
+  .v-field__inputtext {
+    height: 150px;
+    width: 510px;
+    text-indent: 10px;
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+  }
+  .v-field__input {
+    justify-content: start !important;
+    padding: 0px;
+    width: 100%;
+  }
+  .v-field__inputname {
+    height: 50px;
+    width: 100%;
+    text-indent: 10px;
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+  }
+  .input-text-device {
+    height: 50px;
+    width: 100%;
+    text-indent: 10px;
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+  }
+  .input-content-device {
+    height: 50px;
+    width: 100%;
+    text-indent: 10px;
+  
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+  }
+  .v-field__inputs {
+    justify-content: end !important;
+  }
+  .gy-3 {
+    padding: 10px;
+  }
+
+  
+  .v-field__field textarea {
+    width: 100%;
+    box-sizing: border-box; /* Đảm bảo rằng chiều rộng tính cả padding và border */
+}
+  .v-pagination__item {
+    padding-left: 10px;
+    width: 50px;
+    margin-top: 5px;
+  }
+  .v-pagination__prev {
+    padding-right: 10px;
+  }
+  .v-pagination__next {
+    padding-left: 10px;
+  }
+  .v-btn__content {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .v-btn .v-btn--icon {
+    height: 50px;
+    width: 50px;
+  }
+  .v-pagination__list {
+    display: flex;
+    justify-content: center !important;
+  }
+  .pb-2{
+    justify-content: center;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .v-field__input {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .container-input {
+    justify-content: space-between;
+  }
+  .total-container {
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .input-text {
+    height: 40px;
+    width: 357px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0.5px solid #1a598c;
+    text-indent: 10px;
+  }
+  .v-card-title {
+    padding: 10px;
+  }
+  .text-body-2{
+    padding: 0px;
+  }
+  .col-12.col-md-6 input.input-content-device {
+    height: 50px; 
+    width: 100%; 
+    text-indent: 10px; 
+    border: 0.5px solid #1a598c; 
+    border-radius: 5px;    
+  }
+  .col-12 .col-md-6{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .v-btn-excel {
+    width: 200px;
+    border: 0.5px solid #1a598c;
+    border-radius: 5px;
+    color: #1a598c;
+    height: 35px;
+    background-color: #ddeefc;
+  }
+  
+  .v-container {
+    padding: 10px;
+  }
+
+  /* css modal */
+
+  .modal-content {
+    width: 800px;
+    padding: 10px;
+  }
+   .modal-content-delete{
+    width: 450px;
+    padding: 20px;
+    background-color: #fff !important;
+    border-radius: 10px ;
+  } 
+  .modal-dialog {
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 44%;
+  }
+ 
+  #modalupdate {
+    align-items: center;
+    justify-content: center;
+  } 
+  #modalCreate {
+    align-items: center;
+    justify-content: center;
+  } 
+  @media (max-width: 767px) {
+    #modalupdate .modal-dialog {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    #modalupdate .modal-dialog {
+      max-width: 35%;
+      margin-top: 0%;
+    }
+  }
+  #modalCreate {
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 767px) {
+    #modalCreate .modal-dialog {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    #modalCreate.modal-dialog {
+      max-width: 100%;
+    }
+  }
+  .btn-modal-show {
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+  box-shadow: none;
+  }
+  .d-flex{
+    justify-content: center;
+  }
+  .v-btn__content svg {
+    font-size: 1.6em;
+  }
+  .v-btn__content {
+    padding-top: 10px;
+  
+  }
+  
+  .container {
+    justify-content: space-between !important;
+    text-align: center;
+  }
+  .v-input-search {
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.5px solid #1a598c;
+    text-indent: 10px;
+  }
+  .v-btn-addDevice {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.5px solid #1a598c;
+    background-color: #1a598c;
+    color: #fff;
+  }
+  .total-item{
+    color: #1a598c;
+    justify-content: start;
+  
+  }
+  .cont-total{
+    margin-right: 0px !important;
+    justify-content: start !important;
+    padding: 0px !important;
+  }
+  .pagination{
+    justify-content: center;
+  }
+  .page-link{
+    color: #1a598c;
+  }
+  .btn-modal-show{
+    color: #1A589C;
+    border: 0px;
+    position: relative;
+  }
+  .tooltip {
+    white-space: nowrap;
+    visibility: hidden;
+    position: absolute;
+    bottom: 125%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+ 
+  }
+
+.btn-modal-show:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.canvas-qrcode{
+  height: 160px !important;
+  width: 160px !important;
+  margin-top: 20%;
+  margin-left: 15%;
+  justify-content: center;
+}
+
+.v-card-text{
+ padding-left: 0px ;
+}
+.v-slide-group__container{
+  border: none ;
+}
+.v-btn-bd{
+  border: none;
+  margin: 10px;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+
+}
+.v-btn-bd:hover{
+  text-decoration: underline;
+  background-color: rgb(246, 242, 242);
+  height: 30px;
+  width: 100px;
+  position: fixed;
+  transition: none;
+}
+.table{
+ 
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  #modaldelete .modal-dialog {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  #modaldelete .modal-dialog {
+    margin-top: 10%;
+  }
+} 
+/* @media (min-width: 768px) {
+  .modal-content{
+    width: 500px;
+    justify-content: center;
+  } 
+} */
+
+@media (min-width: 768px) {
+  #modalCreate.modal-dialog {
+    max-width: 100%;
+  }
+}

@@ -89,203 +89,7 @@
       </div>
     </div>
 
-    <!-- modal create -->
-    <div class="modal fade" id="modalCreate" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- title modal -->
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLabel">Thêm hồ sơ thiết bị</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <!-- end title modal -->
-
-          <div class="v-card-text">
-            <form class="v-form" novalidate="">
-              <div class="row gy-3">
-                <div class="col-12 col-lg-6 start-conten-modal">
-                  <div class="v-field__input">
-                    <input type="text" class="input-text-device" placeholder="* Loại thiết bị" />
-                  </div>
-                  <div class="v-messages__message">Ví dụ: Máy tính để bản, Máy in, Ghế, ...</div>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <div class="v-field__inputs">
-                    <input type="number" class="input-text-device" placeholder="* Số lượng" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-12 col-lg-8 mt-3">
-                  <div class="row gx-4 gy-3">
-                    <div class="text-body-1">Thông tin thiết bị</div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input
-                          type="text"
-                          class="input-content-device"
-                          placeholder="* Tên thiết bị"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input type="text" class="input-content-device" placeholder="* Giá trị" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input
-                          type="text"
-                          class="input-content-device"
-                          placeholder="* Mã thiết bị"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input
-                          type="text"
-                          class="input-content-device"
-                          placeholder="* Mã tham chiếu"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input type="text" class="input-content-device" placeholder="* Mã Serial" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input type="text" class="input-content-device" placeholder="* Mã model" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input type="text" class="input-content-device" placeholder="* Danh mục" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input
-                          type="text"
-                          class="input-content-device"
-                          placeholder="* Tình trạng"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input type="text" class="input-content-device" placeholder="* Xuất xứ" />
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="v-input-col6-left">
-                        <input
-                          type="text"
-                          class="input-content-device"
-                          placeholder="* Nhà cung cấp"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-3">
-                  <div class="row gx-4 gy-3">
-                    <div class="text-body-1">Thời gian sử dụng</div>
-                    <div class="v-field__input">
-                      <input type="date" class="v-field__inputname" placeholder="Thời gian nhập" />
-                    </div>
-                    <div class="v-field__input">
-                      <input type="date" class="v-field__inputname" placeholder="Bắt đầu sử dụng" />
-                    </div>
-                    <div class="v-field__input">
-                      <input
-                        type="date"
-                        class="v-field__inputname"
-                        placeholder="Dự kiến sử dụng đến"
-                      />
-                    </div>
-                    <div class="v-field__input">
-                      <input
-                        type="date"
-                        class="v-field__inputname"
-                        placeholder="Thời gian bảo hành"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-8" >
-                  <div class="text-body-1 mt-3 mb-2">Ghi chú/Mô tả thiết bị</div>
-                  <div class="v-input__control">
-                    <div class="v-field__field">
-                      <label class="v-label v-field-label">Mô tả</label>
-                      <textarea class="v-field__inputtext"></textarea>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4" style="height: fit-content">
-                  <div class="text-body-1 mt-3 mb-2">Tệp đính kèm</div>
-                  <div class="v-input__prepend">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      role="button"
-                      tag="i"
-                      class="v-icon notranslate v-theme--light v-icon--size-default v-icon--clickable iconify iconify--mdi"
-                      aria-label="File đính kèm prepended action"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M16.5 6v11.5a4 4 0 0 1-4 4a4 4 0 0 1-4-4V5A2.5 2.5 0 0 1 11 2.5A2.5 2.5 0 0 1 13.5 5v10.5a1 1 0 0 1-1 1a1 1 0 0 1-1-1V6H10v9.5a2.5 2.5 0 0 0 2.5 2.5a2.5 2.5 0 0 0 2.5-2.5V5a4 4 0 0 0-4-4a4 4 0 0 0-4 4v12.5a5.5 5.5 0 0 0 5.5 5.5a5.5 5.5 0 0 0 5.5-5.5V6h-1.5Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="v-field__field">
-                    <label class="v-label v-field-label" for="input-1105">File đính kèm</label
-                    ><input
-                      type="file"
-                      id="input-1105"
-                      aria-describedby="input-1105-messages"
-                      placeholder="Chọn file đính kèm thiết bị"
-                      accept=".pdf"
-                    />
-                    <div class="v-field__input"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 mt-4 justify-end d-flex">
-                <button type="button" class="v-btn">
-                  <span class="v-btn__content"> Bỏ qua </span>
-                </button>
-                <button type="button" class="v-btn">
-                  <span class="v-btn__content">Thêm Hồ sơ thiết bị</span>
-                </button>
-              </div>
-            </form>
-          </div>
-
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
-            <button type="button" class="btn btn-primary">Lưu</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ket thuc modal -->
-
+    <!-- Hien thi danh sach thiet bi -->
     <div class="container">
       <table class="table table-striped">
         <thead>
@@ -300,16 +104,17 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(device, index) in DeviceLst" :key="index">
+          <tr v-for="(device, index) in paginatedItems" :key="index">
             <td>{{ device.DeviceName }}</td>
             <td>{{ device.DeviceCode }}</td>
             <td>{{ device.Type }}</td>
             <td>{{ device.CreaterName }}</td>
             <td>{{}}</td>
-            <td>{{}}</td>
+            <td>{{device.Note}}</td>
             <td>
               <div class="d-flex">
-                <button type="button" class="btn-tt">
+                <!-- nut xem chi tiet -->
+                <button type="button" class="btn-modal-show" @click="detailDevice(device)">
                   <span class="v-btn__content">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -321,6 +126,8 @@
                       width="1em"
                       height="1em"
                       viewBox="0 0 24 24"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modaldetail"
                     >
                       <path
                         fill="currentColor"
@@ -328,9 +135,10 @@
                       ></path>
                     </svg>
                   </span>
+                  <span class="tooltip">Xem thông tin</span>
                 </button>
-
-                <button type="button" class="btn-edit">
+                <!-- nut update device -->
+                <button type="button" class="btn-modal-show" style="color: #1a589c; border: 0px">
                   <span class="v-btn__content">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -342,6 +150,8 @@
                       width="1em"
                       height="1em"
                       viewBox="0 0 24 24"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalupdate"
                     >
                       <path
                         fill="currentColor"
@@ -349,8 +159,15 @@
                       ></path>
                     </svg>
                   </span>
+                  <span class="tooltip">Cập nhật thông tin</span>
                 </button>
-                <button type="button" class="btn-delete" style="color: rgb(242, 76, 61)">
+                <!-- nut xoa thiet bi -->
+                <button
+                  type="button"
+                  class="btn-modal-show"
+                  @click="deleteDevice(device)"
+                  style="color: rgb(242, 76, 61); border: 0px"
+                >
                   <span class="v-btn__content">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -362,6 +179,8 @@
                       width="1em"
                       height="1em"
                       viewBox="0 0 24 24"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modaldelete"
                     >
                       <path
                         fill="currentColor"
@@ -369,6 +188,7 @@
                       ></path>
                     </svg>
                   </span>
+                  <span class="tooltip">Xóa thiết bị</span>
                 </button>
               </div>
             </td>
@@ -378,178 +198,83 @@
 
       <div class="row pb-2">
         <div class="row container-input">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="ms-3">Tổng <strong>51 Item</strong></div>
+          <div class="col-12 col-lg-2 cont-total">
+            <div class="ms-3 total-item">
+              <strong>Tổng: {{ Total }} Item</strong>
+            </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <ul class="v-pagination__list">
-              <li class="v-pagination__prev" data-test="v-pagination-prev">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  aria-label="Previous page"
-                  aria-disabled="true"
-                >
-                  <span class="v-btn__content">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      tag="i"
-                      class="v-icon notranslate"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M15.41 16.58L10.83 12l4.58-4.59L14 6l-6 6l6 6l1.41-1.42Z"
-                      ></path>
-                    </svg>
-                  </span>
-                </button>
-              </li>
-              <li class="v-pagination__item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="true"
-                  aria-label="Page 1, Current page"
-                >
-                  <span class="v-btn__content">1</span>
-                </button>
-              </li>
-              <li class="v-pagination__item" data-test="v-pagination-item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="false"
-                  aria-label="Go to page 2"
-                >
-                  <span class="v-btn__content">2</span>
-                </button>
-              </li>
-              <li class="v-pagination__item" data-test="v-pagination-item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="false"
-                  aria-label="Go to page 3"
-                >
-                  <span class="v-btn__content">3</span>
-                </button>
-              </li>
-              <li class="v-pagination__item" data-test="v-pagination-item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="false"
-                  aria-label="Go to page 4"
-                >
-                  <span class="v-btn__content">4</span>
-                </button>
-              </li>
-              <li class="v-pagination__item" data-test="v-pagination-item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="false"
-                  aria-label="Go to page 5"
-                >
-                  <span class="v-btn__content">5</span>
-                </button>
-              </li>
-              <li class="v-pagination__item" data-test="v-pagination-item">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  ellipsis="false"
-                  aria-current="false"
-                  aria-label="Go to page 6"
-                >
-                  <span class="v-btn__content">6</span>
-                </button>
-              </li>
-              <li class="v-pagination__next" data-test="v-pagination-next">
-                <button
-                  type="button"
-                  class="v-btn v-btn--icon"
-                  aria-label="Next page"
-                  aria-disabled="false"
-                >
-                  <span class="v-btn__content"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      tag="i"
-                      class="v-icon notranslate v-theme--light v-icon--size-default iconify iconify--mdi"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.42Z"
-                      ></path>
-                    </svg>
-                  </span>
-                </button>
-              </li>
-            </ul>
-          </div>
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="container containers-pages">
+              <ul class="pagination">
+                <li class="page-item" :class="{ disabled: currentPage === 1 }">
+                  <a class="page-link" href="#" @click="goToPage(currentPage - 1)">Previous</a>
+                </li>
 
-          <div class="col-12 col-md-16 col-lg-4">
+                <li
+                  v-for="page in visiblePages"
+                  :key="page"
+                  class="page-item"
+                  :class="{ active: currentPage === page }"
+                >
+                  <a class="page-link" href="#" @click="goToPage(page)">{{ page }}</a>
+                </li>
+
+                <li class="page-item" :class="{ disabled: currentPage === totalPages }">
+                  <a class="page-link" href="#" @click="goToPage(currentPage + 1)">Next</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-16 col-lg-2">
             <div class="v-field__input">
               <div class="me-3">Mỗi trang</div>
               <div class="v-select__selection">
-                <span class="v-select__selection-text">10</span>
+                <select v-model="itemsPerPage" @change="fetchDataFromApi">
+                  <option v-for="option in itemsPerPageOptions" :key="option" :value="option">
+                    {{ option }} Item
+                  </option>
+                </select>
               </div>
-              <input
-                readonly=""
-                size="1"
-                type="number"
-                id="input-121"
-                aria-describedby="input-121-messages"
-                width="0"
-              />
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- show modal -->
+  <ModalCreateDevice />
+  <ModalDelete :itemDeviceProp="itemDevice"/>
+  <ModalDetail :itemDeviceDetail="itemDevice" />
+  <ModalUpdate :itemDeviceUpdate="itemDevice"/>
 </template>
 
 <script>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import axios from 'axios'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+import ModalDelete from './modal/ModalDelete.vue'
+import ModalCreateDevice from './modal/ModalCreateDevice.vue'
+import ModalDetail from './modal/ModalDetail.vue'
+import ModalUpdate from './modal/ModalUpdate.vue'
+
 export default {
-  data() {
-    return {
-      isDropdownOpen: false
-    }
-  },
-  methods: {
-    handlePushDeviceList() {
-      this.$router.push('/deviceList')
-    },
-    toggleDropdown() {
-      this.isDropdownOpen = !this.isDropdownOpen
-    }
-  },
+  components: { ModalCreateDevice, ModalDelete, ModalDetail, ModalUpdate },
 
   setup() {
     const DeviceLst = ref([])
+    const Total = ref()
+    const currentPage = ref(1)
+    const itemsPerPage = ref(10)
+    const currentPage2 = ref(1)
+    const itemsPerPage2 = ref(10)
+    const itemsPerPageOptions = [10, 20, 30, 40, 50]
+
+    const itemDevice = ref({})
+    function deleteDevice(item) {
+      itemDevice.value = item
+    }
+    function detailDevice(item) {
+      itemDevice.value = item
+    }
 
     const fetchData = async (url, data) => {
       try {
@@ -567,11 +292,9 @@ export default {
 
     const fetchDataFromApi = async () => {
       try {
-        // Lấy giá trị từ localStorage
         const storedData = JSON.parse(localStorage.getItem('username'))
         let User = storedData.UserInfo.UserName
         let Token = storedData.Token
-        // Tạo đối tượng dữ liệu với các giá trị từ localStorage
         const data = {
           UserName: User,
           Token: Token,
@@ -579,8 +302,8 @@ export default {
           DeviceGroup: '',
           TypeDevice: '',
           Search: '',
-          RowNumber: 51,
-          PageNumber: 1
+          RowNumber: itemsPerPage.value,
+          PageNumber: currentPage.value
         }
         console.log(data)
         const responseData = await fetchData(
@@ -588,8 +311,11 @@ export default {
           data
         )
         console.log(responseData)
+        Total.value = responseData.Total
         if (responseData && responseData.DeviceLst.length > 0) {
           DeviceLst.value = responseData.DeviceLst
+          console.log(responseData.DeviceLst)
+          console.log(DeviceLst.value)
         } else {
           console.error('No data received from the API.')
         }
@@ -597,164 +323,90 @@ export default {
         console.error('Error fetching data:', error)
       }
     }
+
+    const totalPages = computed(() => Math.ceil(Total.value / itemsPerPage.value))
+
+    const visiblePages = computed(() => {
+      const pages = []
+      const maxVisiblePages = 5
+
+      if (totalPages.value <= maxVisiblePages) {
+        for (let i = 1; i <= totalPages.value; i++) {
+          pages.push(i)
+        }
+      } else {
+        const buffer = Math.floor(maxVisiblePages / 2)
+
+        if (currentPage.value <= buffer) {
+          for (let i = 1; i <= maxVisiblePages; i++) {
+            pages.push(i)
+          }
+        } else if (currentPage.value >= totalPages.value - buffer) {
+          for (let i = totalPages.value - maxVisiblePages + 1; i <= totalPages.value; i++) {
+            pages.push(i)
+          }
+        } else {
+          for (let i = currentPage.value - buffer; i <= currentPage.value + buffer; i++) {
+            pages.push(i)
+          }
+        }
+      }
+
+      return pages
+    })
+
+    const goToPage = (page) => {
+      console.log(itemsPerPage.value)
+      console.log(page)
+      if (page >= 1 && page <= totalPages.value) {
+        currentPage.value = page
+        itemsPerPage.value *= page
+
+        fetchDataFromApi()
+      }
+    }
+
+    const paginatedItems = computed(() => {
+      console.log(Array.from(DeviceLst.value))
+      const start = (currentPage2.value - 1) * itemsPerPage2.value
+      const end = Math.min(start + itemsPerPage2.value, Array.from(DeviceLst.value).length)
+      const remainingItems = Total.value - start
+      console.log(start)
+      console.log(end)
+      console.log(Array.from(DeviceLst.value).slice(start, end))
+
+      if (remainingItems <= itemsPerPage.value) {
+        return Array.from(DeviceLst.value).slice(start)
+      }
+
+      return Array.from(DeviceLst.value).slice(start, end)
+    })
+    watch([itemsPerPage], () => {
+      currentPage.value = 1
+      fetchDataFromApi()
+    })
     onMounted(() => {
       fetchDataFromApi()
     })
 
     return {
-      DeviceLst
+      DeviceLst,
+      Total,
+      currentPage,
+      itemsPerPage,
+      itemsPerPageOptions,
+      totalPages,
+      visiblePages,
+      goToPage,
+      fetchDataFromApi,
+      paginatedItems,
+      deleteDevice,
+      itemDevice,
+      detailDevice
     }
   }
 }
 </script>
 <style scoped>
-.v-field__inputtext{
-  height: auto;
-  width: 520px;
-  text-indent: 10px;
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-}
-.v-field__input {
-  justify-content: start !important;
-}
-.v-field__inputname {
-  height: 50px;
-  width: 200px;
-  text-indent: 10px;
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-}
-.input-text-device {
-  height: 50px;
-  width: 375px;
-  text-indent: 10px;
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-}
-.input-content-device {
-  height: 50px;
-  width: 250px;
-  text-indent: 10px;
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-}
-.v-field__inputs {
-  justify-content: end !important;
-}
-.gy-3 {
-  padding: 20px;
-}
-.modal-content {
-  width: 800px;
-}
-.modal-dialog {
-  justify-content: center;
-}
-.v-pagination__item {
-  padding-left: 10px;
-  width: 50px;
-  margin-top: 5px;
-}
-.v-pagination__prev {
-  padding-right: 10px;
-}
-.v-pagination__next {
-  padding-left: 10px;
-}
-.v-btn__content {
-  margin-top: 5px;
-  width: 20px;
-  height: 20px;
-}
-
-.v-btn .v-btn--icon {
-  height: 50px;
-  width: 50px;
-}
-.v-pagination__list {
-  display: flex;
-  justify-content: center !important;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.v-field__input {
-  display: flex;
-  justify-content: end;
-}
-
-.container-input {
-  justify-content: space-between;
-}
-.total-container {
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-}
-.input-text {
-  height: 40px;
-  width: 357px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: 0.5px solid #1a598c;
-  text-indent: 10px;
-}
-.v-card-title {
-  padding: 10px;
-}
-
-.v-btn-excel {
-  width: 200px;
-  border: 0.5px solid #1a598c;
-  border-radius: 5px;
-  color: #1a598c;
-  height: 35px;
-  background-color: #ddeefc;
-}
-
-.v-container {
-  padding: 10px;
-}
-.btn-tt {
-  margin: 5px;
-  border: 0px solid;
-  border-radius: 20px;
-}
-.btn-edit {
-  margin: 5px;
-  border: 0px solid;
-  border-radius: 20px;
-}
-.btn-delete {
-  margin: 5px;
-  border: 0px solid;
-  border-radius: 20px;
-}
-.v-btn__content svg {
-  font-size: 1.6em;
-}
-.v-btn__content {
-  padding-top: 10px;
-}
-
-.container {
-  justify-content: space-between !important;
-}
-.v-input-search {
-  width: 320px;
-  height: 35px;
-  border-radius: 5px;
-  border: 0.5px solid #1a598c;
-  text-indent: 10px;
-}
-.v-btn-addDevice {
-  width: 200px;
-  height: 35px;
-  border-radius: 5px;
-  border: 0.5px solid #1a598c;
-  background-color: #1a598c;
-  color: #fff;
-}
+@import '../assets/css/content-create-update.css';
 </style>
